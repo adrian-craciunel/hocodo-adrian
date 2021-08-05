@@ -1,0 +1,32 @@
+.page-books-list {
+  padding: 2rem;
+  .books-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1rem;
+    .card {
+      width: 100%;
+      max-width: calc(25% - 2.13rem);
+      margin: 1rem;
+    }
+
+    @media screen and (max-width: 900px) {
+      .card {
+        max-width: calc(50% - 2.13rem);
+      }
+    }
+
+    @media screen and (max-width: 450px) {
+      .card {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .err-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+}

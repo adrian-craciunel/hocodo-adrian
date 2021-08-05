@@ -1,0 +1,35 @@
+{
+    "extends": ["react-app", "prettier", "plugin:prettier/recommended"],
+    "plugins": ["prettier"],
+    "overrides": [
+      {
+        "files": ["**/*.stories.*"]
+      }
+    ],
+    "rules": {
+      "no-undef": "off",
+      "no-dupe-keys": "error",
+      "no-console": "off",
+      "curly": "error",
+      "comma-spacing": ["error", { "before": false, "after": true }],
+      "for-direction": ["error"],
+      "no-unreachable": "error",
+      "comma-style": ["error", "last"],
+      "function-call-argument-newline": ["error", "consistent"],
+      "jsx-quotes": ["error", "prefer-double"],
+      "padding-line-between-statements": [
+        "error",
+        { "blankLine": "always", "prev": "*", "next": "return" }
+      ],
+      "lines-between-class-members": [
+        "error",
+        "always",
+        { "exceptAfterSingleLine": true }
+      ],
+      "no-unexpected-multiline": "error",
+  
+      "react/jsx-key": ["error"],
+  
+      "prettier/prettier": "error"
+    }
+  }
