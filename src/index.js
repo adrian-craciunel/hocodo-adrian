@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import 'normalize.css';
 import './main.scss';
-import './setupTests';
 
 ReactDOM.render(
   <React.StrictMode>

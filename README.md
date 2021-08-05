@@ -6,4 +6,4 @@ You need to run foolowing scripts to run application locally:
 
 2. To run application in development mode use `npm start` or `yarn start`;
 
-3. To run tests `npm test` or `yarn test`;
+3. To run tests `npm test` or `yarn test` and press `a` in console;

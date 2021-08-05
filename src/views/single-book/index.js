@@ -12,7 +12,7 @@ export const SingleBook = (props) => {
     location: { state }
   } = props;
 
-  const { book, sameAuthorBooks } = state;
+  const { book, sameAuthorBooks } = state || {};
 
   return (
     <>
