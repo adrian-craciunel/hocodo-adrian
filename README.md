@@ -1,4 +1,9 @@
-## How to build and run application
+## Deployed version:
+
+https://hocodo-test.herokuapp.com/
+
+
+## How to build and run application localy:
 
 You need to run foolowing scripts to run application locally:
 
